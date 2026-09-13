@@ -1,0 +1,15 @@
+.cache/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+*.log
+.github/
+tests/
+models/*.gguf
+data/embeddings.npy
+data/faiss.index
+data/chunks_meta.json
+data/history.json

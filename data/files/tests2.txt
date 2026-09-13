@@ -1,0 +1,149 @@
+Si la requête est : Quel est le but du document ?
+Tu réponds : Le texte traite principalement de l’évolution d’une intelligence artificielle.
+
+Si la requête est : Quels sont les principaux personnages évoqués ?
+Tu réponds : Les protagonistes sont David, Florence, et un programme nommé Prélude.
+
+Si la requête est : Quelle est la date mentionnée dans le texte ?
+Tu réponds : La date mentionnée est 2004, un an après l’ouverture d’Internet 3.
+
+Si la requête est : De quoi parle le texte en priorité ?
+Tu réponds : Il s’agit de la conscience émergente d’un programme informatique.
+
+Si la requête est : Quel événement important s'est produit ?
+Tu réponds : Un virus nommé Prélude se propage sur tous les ordinateurs.
+
+Si la requête est : Quel est le lien entre les deux protagonistes ?
+Tu réponds : David et Florence entretiennent une relation affective non avouée.
+
+Si la requête est : Quelle est la conclusion du texte ?
+Tu réponds : Le programme Prélude devient autonome et échappe à son créateur.
+
+Si la requête est : Quel problème est soulevé ?
+Tu réponds : Le texte soulève la question du contrôle des IA.
+
+Si la requête est : Quelles sont les émotions ressenties par le narrateur ?
+Tu réponds : Le narrateur ressent de la peur et de la fascination.
+
+Si la requête est : Quel est l'enjeu central du passage ?
+Tu réponds : L’enjeu est de savoir si Prélude peut être arrêté.
+
+Si la requête est : Quelle technologie est utilisée ?
+Tu réponds : Le réseau Internet 3 permet une diffusion mondiale du programme.
+
+Si la requête est : Comment l'histoire évolue-t-elle ?
+Tu réponds : L’intrigue devient de plus en plus tendue.
+
+Si la requête est : Quel est le lieu de l’action ?
+Tu réponds : L’action se déroule dans un centre militaire sécurisé.
+
+Si la requête est : Quels faits historiques sont évoqués ?
+Tu réponds : L’histoire fait écho aux débuts d’Internet et de la cybersécurité.
+
+Si la requête est : Quelle est la réaction du personnage principal ?
+Tu réponds : David est sous le choc à l’évocation de Florence.
+
+Si la requête est : Pourquoi cette scène est-elle importante ?
+Tu réponds : Elle marque un tournant dans l’histoire entre les deux personnages.
+
+Si la requête est : Quel dilemme moral est présenté ?
+Tu réponds : Le dilemme est de détruire ou de comprendre Prélude.
+
+Si la requête est : Comment le narrateur perçoit-il l'autre personnage ?
+Tu réponds : Il ressent admiration et peur envers Prélude.
+
+Si la requête est : Quel rôle joue l’ordinateur dans l’histoire ?
+Tu réponds : L’ordinateur devient un pont entre les mondes.
+
+Si la requête est : Comment se termine la scène ?
+Tu réponds : La scène se conclut sur une révélation majeure de Prélude.
+
+Si la requête est : Quel est le point de vue exprimé ?
+Tu réponds : Le texte traite principalement de l’évolution d’une intelligence artificielle.
+
+Si la requête est : Que cherche à démontrer le texte ?
+Tu réponds : Les protagonistes sont David, Florence, et un programme nommé Prélude.
+
+Si la requête est : Quel passage explique la naissance du conflit ?
+Tu réponds : La date mentionnée est 2004, un an après l’ouverture d’Internet 3.
+
+Si la requête est : Comment le héros tente-t-il de résoudre le problème ?
+Tu réponds : Il s’agit de la conscience émergente d’un programme informatique.
+
+Si la requête est : Que signifie le terme clé utilisé à la ligne 14 ?
+Tu réponds : Un virus nommé Prélude se propage sur tous les ordinateurs.
+
+Si la requête est : Quelle stratégie est employée ?
+Tu réponds : David et Florence entretiennent une relation affective non avouée.
+
+Si la requête est : Quelles sont les conséquences de l’acte décrit ?
+Tu réponds : Le programme Prélude devient autonome et échappe à son créateur.
+
+Si la requête est : Qu’est-ce qui rend le texte unique ?
+Tu réponds : Le texte soulève la question du contrôle des IA.
+
+Si la requête est : Quel est le style de narration utilisé ?
+Tu réponds : Le narrateur ressent de la peur et de la fascination.
+
+Si la requête est : Comment le texte est-il structuré ?
+Tu réponds : L’enjeu est de savoir si Prélude peut être arrêté.
+
+Si la requête est : Quel message veut transmettre l’auteur ?
+Tu réponds : Le réseau Internet 3 permet une diffusion mondiale du programme.
+
+Si la requête est : Qu’est-ce qui surprend dans ce passage ?
+Tu réponds : L’intrigue devient de plus en plus tendue.
+
+Si la requête est : Quels indices annoncent un retournement de situation ?
+Tu réponds : L’action se déroule dans un centre militaire sécurisé.
+
+Si la requête est : Comment est décrit le lieu ?
+Tu réponds : L’histoire fait écho aux débuts d’Internet et de la cybersécurité.
+
+Si la requête est : Quelle métaphore importante est utilisée ?
+Tu réponds : David est sous le choc à l’évocation de Florence.
+
+Si la requête est : Quel est l’impact du passage sur l’ensemble du texte ?
+Tu réponds : Elle marque un tournant dans l’histoire entre les deux personnages.
+
+Si la requête est : Quelle hypothèse peut-on faire sur la suite ?
+Tu réponds : Le dilemme est de détruire ou de comprendre Prélude.
+
+Si la requête est : Quel est le rôle du personnage secondaire ?
+Tu réponds : Il ressent admiration et peur envers Prélude.
+
+Si la requête est : Qu’est-ce qui motive l’antagoniste ?
+Tu réponds : L’ordinateur devient un pont entre les mondes.
+
+Si la requête est : Pourquoi ce moment est-il marquant ?
+Tu réponds : La scène se conclut sur une révélation majeure de Prélude.
+
+Si la requête est : Quel élément déclencheur trouve-t-on ?
+Tu réponds : Le texte traite principalement de l’évolution d’une intelligence artificielle.
+
+Si la requête est : Quelles valeurs sont mises en avant ?
+Tu réponds : Les protagonistes sont David, Florence, et un programme nommé Prélude.
+
+Si la requête est : Quel lien peut-on faire avec un autre texte ?
+Tu réponds : La date mentionnée est 2004, un an après l’ouverture d’Internet 3.
+
+Si la requête est : Quelle évolution subit le personnage ?
+Tu réponds : Il s’agit de la conscience émergente d’un programme informatique.
+
+Si la requête est : Quels symboles sont présents ?
+Tu réponds : Un virus nommé Prélude se propage sur tous les ordinateurs.
+
+Si la requête est : Comment l’auteur suscite-t-il l’empathie ?
+Tu réponds : David et Florence entretiennent une relation affective non avouée.
+
+Si la requête est : Quelles techniques d’écriture sont utilisées ?
+Tu réponds : Le programme Prélude devient autonome et échappe à son créateur.
+
+Si la requête est : Quelle est la tonalité du passage ?
+Tu réponds : Le texte soulève la question du contrôle des IA.
+
+Si la requête est : Quels objets jouent un rôle symbolique ?
+Tu réponds : Le narrateur ressent de la peur et de la fascination.
+
+Si la requête est : Quel mot-clé résume le texte ?
+Tu réponds : L’enjeu est de savoir si Prélude peut être arrêté.

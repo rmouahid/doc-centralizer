@@ -1,0 +1,178 @@
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : Combien de temps les journaux de connexion sont-ils conservés ?
+Tu réponds : 90 jours
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Où est hébergé le serveur principal ?
+Tu réponds : À Francfort
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : Quel type de modèle d'IA est utilisé pour la détection des fraudes ?
+Tu réponds : Un réseau de neurones convolutionnel
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Où est hébergé le serveur principal ?
+Tu réponds : À Francfort
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : Quel type de modèle d'IA est utilisé pour la détection des fraudes ?
+Tu réponds : Un réseau de neurones convolutionnel
+
+Si la requête est : Quand les mises à jour critiques sont-elles installées ?
+Tu réponds : Chaque dimanche à 3h du matin
+
+Si la requête est : Quel type de modèle d'IA est utilisé pour la détection des fraudes ?
+Tu réponds : Un réseau de neurones convolutionnel
+
+Si la requête est : Quel type de modèle d'IA est utilisé pour la détection des fraudes ?
+Tu réponds : Un réseau de neurones convolutionnel
+
+Si la requête est : Où est hébergé le serveur principal ?
+Tu réponds : À Francfort
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Combien de temps les journaux de connexion sont-ils conservés ?
+Tu réponds : 90 jours
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Quand les mises à jour critiques sont-elles installées ?
+Tu réponds : Chaque dimanche à 3h du matin
+
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Quand les mises à jour critiques sont-elles installées ?
+Tu réponds : Chaque dimanche à 3h du matin
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Où est hébergé le serveur principal ?
+Tu réponds : À Francfort
+
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256
+
+Si la requête est : Quel mécanisme d'authentification est utilisé ?
+Tu réponds : Double authentification via AuthGuard
+
+Si la requête est : Quelle est la version actuelle du système ?
+Tu réponds : 3.4.8
+
+Si la requête est : Quand les mises à jour critiques sont-elles installées ?
+Tu réponds : Chaque dimanche à 3h du matin
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : Quand les mises à jour critiques sont-elles installées ?
+Tu réponds : Chaque dimanche à 3h du matin
+
+Si la requête est : Combien de temps les journaux de connexion sont-ils conservés ?
+Tu réponds : 90 jours
+
+Si la requête est : Quel est le seuil d'alerte pour les connexions échouées ?
+Tu réponds : 5
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Combien de temps les journaux de connexion sont-ils conservés ?
+Tu réponds : 90 jours
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : À quelle fréquence est faite la sauvegarde de la base de données principale ?
+Tu réponds : Toutes les 12 heures
+
+Si la requête est : Combien de temps les journaux de connexion sont-ils conservés ?
+Tu réponds : 90 jours
+
+Si la requête est : Quel protocole sécurisé est utilisé ?
+Tu réponds : TLS 1.3
+
+Si la requête est : Où est hébergé le serveur principal ?
+Tu réponds : À Francfort
+
+Si la requête est : Quel algorithme de chiffrement est utilisé ?
+Tu réponds : AES-256

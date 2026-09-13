@@ -1,0 +1,18 @@
+#Ignorer les fichiers python compilés
+*.pyc
+__pycache__/
+
+#Ignorer les fichiers de configuration de l'environnement virtuel
+.env
+.venv/
+
+#Ignorer les artefacts générés (recalculables depuis data/files/)
+data/embeddings.npy
+data/faiss.index
+data/chunks_meta.json
+
+#Ignorer l'historique de conversation local (données personnelles, pas du code)
+data/history.json
+
+#Ignorer les modèles LLM (trop volumineux pour git)
+models/*.gguf
