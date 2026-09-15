@@ -50,8 +50,13 @@ poetry install
 3. Download the Phi-3 model:
 
 ```bash
-mkdir -p models
-# Download the GGUF format of Phi-3-mini model and place it in the models directory
+bash scripts/download_model.sh
+```
+
+This fetches the quantized GGUF weights (`phi-3-mini-128k-instruct.Q4_K_M.gguf`, ~2.4 GB) into `models/`. Depending on your connection, this can take a few minutes. If the default source has moved, override it:
+
+```bash
+MODEL_REPO=<hf-user>/<hf-repo> MODEL_FILE=<file.gguf> bash scripts/download_model.sh
 ```
 
 ## Project Structure
@@ -69,6 +74,8 @@ doc-centralizer/
 ├── data/
 │   └── files/            # Documentation files (embeddings/index/cache are generated, not committed)
 ├── models/              # LLM model files (not committed, see Installation)
+├── scripts/
+│   └── download_model.sh # Fetches the Phi-3 GGUF weights into models/
 ├── Dockerfile
 ├── poetry.lock
 ├── pyproject.toml
