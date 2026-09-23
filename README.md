@@ -1,5 +1,8 @@
 # Documentation Assistant AI
 
+[![Tests](https://github.com/rmouahid/doc-centralizer/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/rmouahid/doc-centralizer/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An AI-powered documentation assistant that helps users explore and understand documentation through natural language conversations. Built with Streamlit, llama.cpp (Phi-3), and FAISS for semantic search capabilities.
 
 ## Architecture
