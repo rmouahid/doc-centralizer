@@ -165,11 +165,10 @@ Key configuration constants in `app/config.py`:
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+Contributions are welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) for the
+development setup, branch naming, commit conventions and how to run the tests
+before opening a pull request. This project follows the
+[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
