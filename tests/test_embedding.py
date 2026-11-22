@@ -1,6 +1,7 @@
 import numpy as np
 import pytest
 
+from app import embedding
 from app.embedding import (
     build_faiss_index, save_faiss_index, load_faiss_index,
     save_chunks_meta, load_chunks_meta, semantic_search_faiss,
@@ -26,6 +27,18 @@ def test_build_faiss_index_and_search_roundtrip():
 
     D, I = index.search(np.array([[1.0, 0.0]], dtype="float32"), 1)
     assert I[0][0] == 0
+
+
+def test_semantic_search_ignores_missing_faiss_results(monkeypatch):
+    embeddings = np.array([[1.0, 0.0], [0.0, 1.0]], dtype="float32")
+    chunks = ["chunk A", "chunk B"]
+    meta = [{"id_doc": "doc.txt", "chunk_id": i} for i in range(len(chunks))]
+    index = build_faiss_index(embeddings)
+    monkeypatch.setattr(embedding.model, "encode", lambda queries: embeddings[:1])
+
+    results = semantic_search_faiss("query", chunks, meta, index, top_k=5)
+
+    assert [result["chunk"] for result in results] == chunks
 
 
 def test_faiss_index_save_and_load_roundtrip(tmp_path):

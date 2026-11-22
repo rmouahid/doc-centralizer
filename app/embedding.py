@@ -174,13 +174,13 @@ def semantic_search_faiss(query: str, chunks: List[str], meta: List[Dict[str, An
 
     results = []
     for i, score in zip(I[0], D[0]):
-        if i < len(meta):  # Vérifiez que l'indice est valide
+        if 0 <= i < len(meta):  # Vérifiez que l'indice est valide
             results.append({
                 "score": float(score),
                 "id_doc": meta[i]["id_doc"],
                 "chunk_id": meta[i]["chunk_id"],
                 "chunk": chunks[i]
             })
-        else:
+        elif i != -1:
             logger.warning("Indice hors limites : %s, ignoré.", i)
     return results
