@@ -10,7 +10,7 @@ from app.embedding import (
     load_faiss_index, semantic_search_faiss, save_chunks_meta, load_chunks_meta,
     compute_directory_fingerprint
 )
-from app.llm import stream_llm
+from app.llm import PromptContextError, stream_llm
 from app.history import ConversationHistory
 from app.config import (
     DIRECTORY_PATH, EMBEDDINGS_FILE, INDEX_FILE, CHUNKS_META_FILE,
@@ -98,18 +98,21 @@ if query:
                 st.session_state.index,
                 top_k=5
             )
-            full_context = "\n\n".join(res["chunk"] for res in results)
+            context_chunks = [res["chunk"] for res in results]
 
-        answer = st.write_stream(
-            stream_llm(query, full_context, st.session_state.history, max_tokens=MAX_TOKENS_RESPONSE)
-        )
+        try:
+            answer = st.write_stream(
+                stream_llm(query, context_chunks, st.session_state.history, max_tokens=MAX_TOKENS_RESPONSE)
+            )
+        except PromptContextError as exc:
+            st.error(str(exc))
+        else:
+            sources = sorted({res["id_doc"] for res in results})
+            if sources:
+                st.caption(f"📎 Sources : {', '.join(sources)}")
 
-        sources = sorted({res["id_doc"] for res in results})
-        if sources:
-            st.caption(f"📎 Sources : {', '.join(sources)}")
-
-        # Sauvegarde dans l'historique
-        st.session_state.history.add_interaction(query, answer, full_context)
+            # Sauvegarde dans l'historique
+            st.session_state.history.add_interaction(query, answer, "\n\n".join(context_chunks))
 
 # Sidebar avec informations et options
 with st.sidebar:
