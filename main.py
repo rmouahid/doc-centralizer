@@ -8,7 +8,7 @@ from app.embedding import (
     build_faiss_index, save_faiss_index, load_faiss_index, semantic_search_faiss,
     save_chunks_meta, load_chunks_meta, compute_directory_fingerprint
 )
-from app.llm import stream_llm
+from app.llm import PromptContextError, stream_llm
 from app.history import ConversationHistory
 from app.config import DIRECTORY_PATH, EMBEDDINGS_FILE, INDEX_FILE, CHUNKS_META_FILE, MAX_TOKENS
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
         # Recherche sémantique dans l'index FAISS
         results = semantic_search_faiss(query, chunks, meta, index, top_k=5)
-        full_context = "\n\n".join(res["chunk"] for res in results)
+        context_chunks = [res["chunk"] for res in results]
 
         sources = sorted({res["id_doc"] for res in results})
         if sources:
@@ -62,12 +62,16 @@ if __name__ == "__main__":
 
         print("\n Réponse du LLM :\n")
         answer_parts = []
-        for token in stream_llm(query, full_context, history):
-            print(token, end="", flush=True)
-            answer_parts.append(token)
+        try:
+            for token in stream_llm(query, context_chunks, history):
+                print(token, end="", flush=True)
+                answer_parts.append(token)
+        except PromptContextError as exc:
+            print(f"\n{exc}")
+            continue
         answer = "".join(answer_parts).strip()
 
         # Sauvegarde de l'interaction dans l'historique
-        history.add_interaction(query, answer, full_context)
+        history.add_interaction(query, answer, "\n\n".join(context_chunks))
 
         print("\n\n--- Fin de réponse ---")
