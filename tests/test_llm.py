@@ -68,6 +68,33 @@ def test_build_prompt_rejects_question_that_cannot_fit(llm_module):
 
 
 @pytest.mark.parametrize("stream", [False, True])
+def test_generation_stop_sequences_match_prompt(llm_module, monkeypatch, tmp_path, stream):
+    history = ConversationHistory(history_file=str(tmp_path / "history.json"))
+    history.add_interaction("Première question", "Première réponse", "")
+    history.add_interaction("Deuxième question", "Deuxième réponse", "")
+    query = "Question actuelle"
+    context = "Extrait pertinent"
+    prompt = llm_module.build_prompt(query, context, history)
+
+    class RecordingLlama(FakeLlama):
+        def __call__(self, prompt_tokens, *, stop, **options):
+            self.stop = stop
+            response = {"choices": [{"text": "Réponse actuelle"}]}
+            return iter([response]) if options.get("stream") else response
+
+    model = RecordingLlama(n_ctx=LLM_CONTEXT_SIZE)
+    monkeypatch.setattr(llm_module, "llm", model)
+
+    if stream:
+        assert "".join(llm_module.stream_llm(query, context, history)) == "Réponse actuelle"
+    else:
+        assert llm_module.ask_llm(query, context, history) == "Réponse actuelle"
+
+    assert {"\nHuman:", "\nQuestion:"} <= set(model.stop)
+    assert all(sequence in prompt for sequence in model.stop)
+
+
+@pytest.mark.parametrize("stream", [False, True])
 def test_generation_reserves_response_tokens_and_handles_residual_overflow(
     llm_module, monkeypatch, stream
 ):
