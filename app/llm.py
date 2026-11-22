@@ -14,6 +14,7 @@ llm = Llama(
 )
 
 _CONTEXT_ERROR = "La fenêtre de contexte du modèle est dépassée. Raccourcissez votre question."
+_STOP_SEQUENCES = ["\nHuman:", "\nQuestion:"]
 
 
 class PromptContextError(ValueError):
@@ -93,7 +94,7 @@ def ask_llm(
         response = llm(
             _tokenize_prompt(prompt),
             max_tokens=max_tokens,
-            stop=["### Question:", "### Contexte:", "### Réponse:"],
+            stop=_STOP_SEQUENCES,
             echo=False
         )
 
@@ -113,7 +114,7 @@ def stream_llm(
         for chunk in llm(
             _tokenize_prompt(prompt),
             max_tokens=max_tokens,
-            stop=["### Question:", "### Contexte:", "### Réponse:"],
+            stop=_STOP_SEQUENCES,
             echo=False,
             stream=True
         ):
